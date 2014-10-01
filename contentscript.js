@@ -48,6 +48,10 @@ var hush = (function() {
 
           mailEl.parentNode.insertBefore(husher, mailEl);
         }
+      } else {
+        if (knownCount) {
+          setKnownCount(0);
+        }
       }
 
       document.documentElement.className = document.documentElement.className.replace(' husher-start', '');

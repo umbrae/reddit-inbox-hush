@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "reddit inbox hush",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A very tiny extension that allows inbox counts to be hushed on reddit.",
   "content_scripts": [
     {
