@@ -41,6 +41,7 @@ var hush = (function() {
           husher.innerHTML = "☀︎";
 
           husher.addEventListener('click', function() {
+            husher.style.display = 'none';
             setKnownCount(messageCount);
             hushCount();
           });
