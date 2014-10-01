@@ -1,0 +1,21 @@
+.husher-start .message-count,
+.message-count.hushed {
+  background-color: #CCC !important;
+}
+
+.husher-start .havemail {
+  opacity: 0 !important;
+}
+
+a.husher {
+  background-color: #C5C5FF;
+  color: black;
+  font-size: 8px;
+  font-weight: bold;
+  padding: 0px 2px;
+  margin-left: 0;
+  border-radius: 2px;
+  display: inline-block;
+  margin-right: 4px;
+  cursor: pointer;
+}
